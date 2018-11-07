@@ -32,6 +32,14 @@ function toggleMenu() {
     }
 }
 
-
+//spinner function
+function myLoad() {
+    document.querySelector('.spinner').classList.add('spinner-1');
+    // document.querySelector('body').classList.add('hidden');
+    setTimeout(() => {
+      document.querySelector('.spinner').classList.remove('spinner-1');
+    //   document.querySelector('body').classList.remove('hidden');
+    }, 300);
+}
 
 
